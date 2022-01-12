@@ -14,7 +14,7 @@ Se realiza usando Python 3.6
 - Instalar el OCI CLI en WSL2.
 
 Pasos:
-
+- C
 
 
 Simple Lab using Oracle Functions
