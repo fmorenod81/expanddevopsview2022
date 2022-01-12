@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+      
+  bb-db:
+    image: psodfn/bulletin-board-db:v1
+    ports:
+      - "1444:1433"
+
+  bb-app:
+    image: psodfn/bulletin-board-app:v1
+    ports:
+      - "8082:8080"
+    depends_on:
+      - bb-db
+    restart: on-failure
