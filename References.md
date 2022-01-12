@@ -1,7 +1,7 @@
 # References
-Presentation and Code of "Expand your DevOps View For 2022"  - Section "Cloud Native Approach using Oracle Functions" - 13th January/2022.
+Presentacion y Codigo de "Expand your DevOps View For 2022"  - Sección "Cloud Native Approach using Oracle Functions" - 13 Enero/2022.
 
-Author: Francisco Javier Moreno - fmorenod@gmail.com
+Autor: Francisco Javier Moreno - fmorenod@gmail.com
 
 Las paginas que aparece con el pie de pagina de Oracle dentro de la presentacion son copyrigth de Oracle Corporation.
 
