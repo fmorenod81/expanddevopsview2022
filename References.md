@@ -42,7 +42,7 @@ https://blogs.oracle.com/developers/post/getting-started-with-microservices-part
 
 https://blogs.oracle.com/developers/post/getting-started-with-microservices-part-2-containers-and-microservices
 
-https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/distributed-data
+https://medium.com/fnproject/8-reasons-why-we-built-the-fn-project-bcfe45c5ae63
 
 
 **Arquitecturas de Referencia**
@@ -56,6 +56,7 @@ https://docs.oracle.com/en/solutions/mad-web-mobile/index.html#GUID-3D021003-859
 
 https://docs.oracle.com/en/solutions/mad-event-driven/index.html#GUID-BA6424A7-54ED-4128-A5F0-9A75628CB456
 
+https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/distributed-data
 
 **Frameworks Ligeros**
 
@@ -65,6 +66,20 @@ https://micronaut.io/
 
 https://www.oracle.com/java/graalvm/
 
+
+**Otras Opciones**
+
+OpenFaaS: 
+
+https://docs.openfaas.com/
+
+KNative
+
+https://knative.dev/docs/serving/
+
+Kubeless
+
+https://kubeless.io/
 
 **Oracle Services**
 
