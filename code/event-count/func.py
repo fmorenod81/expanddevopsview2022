@@ -5,7 +5,7 @@ import pymssql
 from fdk import response
 
 def handler(ctx, data: io.BytesIO=None):
-
+    logging.getLogger().info("Inside Python Event-Count function")
     conn = pymssql.connect(server="129.213.154.39",port=1444, user = "sa", password = "DockerCon!!!", database="BulletinBoard")
     cursor = conn.cursor()
     cursor.execute('SELECT COUNT(*) FROM Events')

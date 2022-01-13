@@ -50,17 +50,24 @@ echo -n '{"name":"FranciscoMoreno"}'|fn invoke helloApp hellofunction
 **Event-Count**
 fn create context <nombreContexto> --provider oracle
 fn use context <nombreContexto>
+
+fn use context prod
 fn update context oracle.compartment-id <compartment>
 fn update context oracle.compartment-id ocid1.compartment.oc1..aaaaaaaa4ewy3s376yq5xuvtpwe5nvksw6qjif2qwtor2vjaqcsmd5sw47fq
 fn update context api-url https://functions.us-ashburn-1.oraclecloud.com
 Del oci.config es necesario obtener el profile o copia de 
 fn update context oracle.profile <profile>
+fn update context registry <definicionRegion>.ocir.io/<usuario>/
 fn update context registry iad.ocir.io/<usuario>/<nombreRepo> << El usuario es el que se trae de la consola Web al hacer el repo, se trae el namespace
 fn update context registry iad.ocir.io/idy4hyfbs31o/myapp
 
 docker login iad.ocir.io --username idy4hyfbs31o/oracleidentitycloudservice/francisco.m.moreno --password "OqY2#NN5iO3s-<79}j#E"
 fn list context
 fn list apps
+
+<Crear Apps en Functions en Red Publica>
+fn list config f <nombreApp> <NombreFunction>
+fn list config f NombreFunction hello
 
 
 Simple Lab using Oracle Functions
