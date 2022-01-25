@@ -14,7 +14,7 @@ Se realiza usando Python 3.6
 - Instalar y configurar el OCI CLI en WSL2.
 
 Pasos:
-- Chequeaer ambientes
+- Chequear ambientes
 
 oci os ns get
 
@@ -69,6 +69,7 @@ fn list apps
 fn list config f <nombreApp> <NombreFunction>
 fn list config f NombreFunction hello
 
-
+curl -k -X GET https://fn.ocidemo.online/example/event-count
+  
 Simple Lab using Oracle Functions
 ![Lab](../docs/Lab.png)
