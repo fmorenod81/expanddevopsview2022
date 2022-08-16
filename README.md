@@ -10,7 +10,7 @@ Esta dividido en:
 - **[Code](code/README.md):** Codigo de Laboratorio, incluido el entorno de prueba tomado del ejemplo de Pluralsigth, https://app.pluralsight.com/library/courses/serverless-programming-fn-project
 - **[Mindmaps](Mindmaps.md):** Mapas mentales personales de la presentación y secciones de la misma.
 - **[Referencias](References.md):** Enlaces y referencias.
-- **[Presentacion]:(./Expand_DevOps_View_2022.pptx):** Presentacion Powerpoint 2019
+- **[Presentacion](./Expand_DevOps_View_2022.pptx):** Presentacion Powerpoint 2019
 
 General Agenda de la presentacion
 ![Agenda General](./docs/Modernizacin_deAplicaciones.png)
